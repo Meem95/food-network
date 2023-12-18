@@ -1,0 +1,191 @@
+  
+* {
+font-family: 'Poppins', sans-serif;
+margin: 0px;
+padding: 0px;
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;;
+}
+h2{
+    font-size :40px;
+    text-transform: uppercase;
+}
+.topnav {
+    overflow: hidden;
+    background-image: linear-gradient(to right, #1F1C2C 0%, #928DAB  51%, #1F1C2C  100%);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1%;
+  }
+  
+.topnav a {
+    /* float: left; */
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+.topnav a.active {
+    background-color: #928DAB;
+    color: white;
+  }
+.topnav a:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: grey;
+
+  }
+.primary{
+    display: flex;
+}
+
+.cover-image{
+    /* background-image: url(./images/shapes/group.png); */
+    background-repeat: no-repeat;
+    display: flex;
+    min-height: 250px;
+    background-size: cover; 
+    width:20%;
+}
+.orange{
+ 
+    color: #E7330B;
+}
+.half-width{
+    width: 50%;
+    padding: 3%;
+  
+}
+.skip-diet a{
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    text-decoration: none;
+    padding: 15px 45px;
+    float: left;
+    color: black;
+    margin-top: 15px;
+    font-weight: block;
+    font-size:18px;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    text-transform: uppercase;
+    transition: 0.5s;
+  
+
+}
+.skip-diet p{
+    text-align: justify;
+}
+.skip-diet {
+   padding-top: 120px;
+}
+.about {
+display: flex;
+background-image: url(./images/shapes/7.png);
+background-repeat: no-repeat;
+background-size: cover; 
+}
+.about-first{
+    width: 50%;
+    padding: 3%;
+   
+}
+.about-first img{
+    width: 50%;
+    padding: 3%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.about-first a{
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+    text-decoration: none;
+    padding: 15px 45px;
+    float: left;
+    color: black;
+    margin-top: 15px;
+    font-weight: block;
+    font-size:18px;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.about-first p{
+ 
+    text-decoration: none;
+    text-align: justify;
+    font-size:18px;
+    font-weight: bold;
+ }
+ .recipes-section{
+    text-align: center;
+    width: 90%;
+    padding:3% 5% 5% 5%;
+ }
+ .recipes-card{
+    display: flex;
+    padding: 0 5% 10% 10%;
+ }
+ .card1:hover {
+    box-shadow: 0 4px 18px 0 rgba(80, 75, 75, 0.2);
+  }
+ .card1{
+    width: 30%;
+    border-radius: 10px;
+    padding: 2%;
+    height: auto;
+    margin-right: 5%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 18px 0 rgba(0,0,0,0.2);
+ }
+ .card1 img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+ }
+.count{
+    width: 71%;
+    display: flex;
+    padding: 5% ;
+    box-shadow: 5px 10px 20px #888888;
+    border-radius: 15px;
+    margin-left: 152px;
+}
+.count-one{
+    width: 30%;
+    text-align: center;
+}
+
+.count-two{
+    width: 30%;
+    text-align: center;
+}
+.count-three{
+    width: 30%;
+    text-align: center;
+}
+footer{
+    margin-top: 40px;
+    background-color: black;
+    min-height: 150px;
+}
+footer h2{
+    color:#ffffff;
+    padding-top: 2%;
+    text-align: center;
+}
+
+footer p{
+color: #ffff;
+text-align: center;
+}
+
+         
+
+          
